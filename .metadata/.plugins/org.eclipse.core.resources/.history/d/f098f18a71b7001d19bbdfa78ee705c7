@@ -1,0 +1,16 @@
+package util;
+
+public class CurrentCurrency {
+
+	
+	public static double dolar;
+	
+	public static double euro;
+	
+	public static double convertToDolar(double peso){
+		return peso/dolar;
+	}
+	public static double convertToEuro(double peso) {
+		return peso/euro;
+	}
+}

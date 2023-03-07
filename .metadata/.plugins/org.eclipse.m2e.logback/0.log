@@ -1,0 +1,51 @@
+2023-02-21 18:39:44,101 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2023-02-21 18:44:17,512 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-21 18:59:24,333 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-21 19:02:04,835 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.12; built: 2022-09-14T01:54:40.076Z; git: 408d0139887e27a57b54ed52e2d92a36731a7e88; jvm 19.0.2+7-44
+2023-02-21 19:02:04,860 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-02-21 19:02:04,893 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5be48034{/help,null,AVAILABLE}
+2023-02-21 19:02:04,912 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@339ccb78{HTTP/1.1, (http/1.1)}{127.0.0.1:51562}
+2023-02-21 19:02:04,914 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@2c0eef25{STARTING}[10.0.12,sto=0] @224846ms
+2023-02-21 19:06:48,839 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@2c0eef25{STOPPING}[10.0.12,sto=0]
+2023-02-21 19:06:48,843 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@339ccb78{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-02-21 19:06:48,873 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5be48034{/help,null,STOPPED}
+2023-02-21 19:07:08,215 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-21 20:26:22,084 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-22 07:14:02,836 [Worker-22: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-22 09:39:23,704 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-23 07:22:15,786 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-02-23 17:10:34,079 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-23 17:56:02,823 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 08:31:33,344 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-02-24 08:35:26,136 [Worker-14: reload maven project] ERROR o.e.m.c.u.i.actions.SelectionUtil - Can't close stream
+java.nio.file.FileAlreadyExistsException: C:\Users\Luciano\AppData\Local\Temp\maven-pom2530358908694583398.pom
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3159)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:251)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:707)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1027)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-02-24 08:44:35,533 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 08:57:59,746 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 09:00:43,701 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 09:01:31,542 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-24 09:01:47,972 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.12; built: 2022-09-14T01:54:40.076Z; git: 408d0139887e27a57b54ed52e2d92a36731a7e88; jvm 19.0.2+7-44
+2023-02-24 09:01:48,060 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-02-24 09:01:48,156 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3dad09dc{/help,null,AVAILABLE}
+2023-02-24 09:01:48,198 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6d0bee06{HTTP/1.1, (http/1.1)}{127.0.0.1:65382}
+2023-02-24 09:01:48,206 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@6af22a6d{STARTING}[10.0.12,sto=0] @45204ms
+2023-02-24 09:23:52,789 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@6af22a6d{STOPPING}[10.0.12,sto=0]
+2023-02-24 09:23:52,794 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6d0bee06{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-02-24 09:23:52,827 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3dad09dc{/help,null,STOPPED}
+2023-02-24 13:02:36,891 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-28 10:28:35,792 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-02-28 11:57:07,303 [Worker-51: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\Luciano\git\Ajedrez-Bot2\.git]
+2023-02-28 11:59:10,771 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-28 12:00:43,778 [Worker-4: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\Luciano\git\Ajedrez-Bot\.git]
+2023-02-28 12:00:43,983 [Worker-4: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\Luciano\eclipse-workspace\Ajedrez-Bot\.git]
+2023-03-02 20:51:45,516 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -1,0 +1,29 @@
+package currency;
+import java.util.Locale;
+import java.util.Scanner;
+
+import util.Tablero;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		char columna;
+		int fila;
+		
+		System.out.println("ingrese la columna");
+		columna=sc.next().charAt(0);
+
+		System.out.println("ingrese la fila");
+		fila=sc.nextInt();
+		
+		sc.close();
+		
+		Tablero.obtenerCasilla(columna, fila);
+	}
+
+
+}

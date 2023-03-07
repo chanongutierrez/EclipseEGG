@@ -1,0 +1,19 @@
+package currency;
+import java.util.Scanner;
+
+import util.CurrentCurrency;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		double peso;
+		System.out.println("ingrese la cantidad de pesos: ");
+		peso=sc.nextDouble();
+		sc.close();
+		System.out.printf(peso+" pesos equivale a: %.2f%n"+ CurrentCurrency.convertToDolar(peso) + " Dolares");
+		System.out.printf(peso+" pesos equivale a: %.2f%n"+ CurrentCurrency.convertToEuro(peso)+ " Euros"); 
+	}
+
+}

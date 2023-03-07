@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<editComponent
+		id="org.eclipse.wb.swing.components.awt java.awt.Label"
+		name="Label"
+		description="A Label object is a component for placing text in a container. A label displays a single line&#13;&#10;&#9;&#9;of read-only text. The text can be changed by the application, but a user cannot edit itdirectly."
+		visible="true"
+		class="java.awt.Label"/>
+</commands>

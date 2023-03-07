@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="gui.VentanaOperaciones"/>
+    <fullyQualifiedTypeName name="calculadora.CalcularSuperficie"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="entities.Rectangle"/>
+    <fullyQualifiedTypeName name="aplication.Program"/>
+    <fullyQualifiedTypeName name="com.formdev.flatlaf.FlatLightLaf"/>
+    <fullyQualifiedTypeName name="javax.swing.UIManager"/>
+    <fullyQualifiedTypeName name="util.CurrentCurrency"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="util.Tablero"/>
+</qualifiedTypeNameHistroy>
