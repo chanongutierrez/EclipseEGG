@@ -1,6 +1,6 @@
-package currency;
+package practicaas;
 
-public class Main {
+public class PrimerEjercicio {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

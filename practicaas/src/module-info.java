@@ -5,5 +5,5 @@
  * @author Luciano
  *
  */
-module miniProject {
+module practicaas {
 }
